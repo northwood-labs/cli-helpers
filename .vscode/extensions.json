@@ -1,0 +1,85 @@
+{
+  /*
+  https://github.com/ilaif/goplicate
+  */
+  "recommendations": [
+    // goplicate-start:always
+    "albymor.increment-selection",
+    "annsk.alignment",
+    "arahata.linter-actionlint",
+    "chdsbd.github-code-owners",
+    "christian-kohler.path-intellisense",
+    "claui.email-addresses",
+    "Cmacu.gotoanything",
+    "DavidWang.ini-for-vscode",
+    "donjayamanne.git-extension-pack",
+    "donjayamanne.githistory",
+    "dt.ghlink",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "elagil.pre-commit-helper",
+    "emeraldwalk.RunOnSave",
+    "ExodiusStudios.comment-anchors",
+    "fnando.linter",
+    "GitHub.copilot",
+    "GitHub.remotehub",
+    "GitHub.vscode-codeql",
+    "github.vscode-github-actions",
+    "GitHub.vscode-pull-request-github",
+    "gurumukhi.selected-lines-count",
+    "IBM.output-colorizer",
+    "kevinkyang.auto-comment-blocks",
+    "logerfo.json-trimmer",
+    "melt-inc.yamlfmt-vscode",
+    "mhutchie.git-graph",
+    "mkhl.direnv",
+    "mohsen1.prettify-json",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "ms-vscode.test-adapter-converter",
+    "nhoizey.gremlins",
+    "oliversturm.fix-json",
+    "pflannery.vscode-versionlens",
+    "qezhu.gitlink",
+    "quicktype.quicktype",
+    "redhat.vscode-yaml",
+    "sidneys1.gitconfig",
+    "stkb.rewrap",
+    "tamasfe.even-better-toml",
+    "technosophos.vscode-make",
+    "Tyriar.sort-lines",
+    "usernamehw.errorlens",
+    "wmaurer.change-case",
+    "xshrim.txt-syntax",
+    "zardoy.fix-all-json",
+    "ziyasal.vscode-open-in-github",
+    // goplicate-end:always
+    //
+    // goplicate-start:golang
+    "akshayn.GoGet",
+    "golang.go",
+    "MaxMedia.go-prof",
+    "msyrus.go-doc",
+    "premparihar.gotestexplorer",
+    "windmilleng.vscode-go-autotest",
+    // goplicate-end:golang
+    //
+    // goplicate-start:markdown
+    "arr.marksman",
+    "bierner.markdown-checkbox",
+    "bierner.markdown-preview-github-styles",
+    "bierner.markdown-yaml-preamble",
+    "DavidAnson.vscode-markdownlint",
+    "fcrespo82.markdown-table-formatter",
+    "yzhang.markdown-all-in-one",
+    // goplicate-end:markdown
+    //
+  ],
+  "unwantedRecommendations": [
+    // goplicate-start:unwanted
+    "ms-azuretools.vscode-azureterraform",
+    "GoogleCloudTools.cloudcode",
+    "vscodevim.vim",
+    // goplicate-end:unwanted
+  ]
+}
