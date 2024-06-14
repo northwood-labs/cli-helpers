@@ -7,7 +7,7 @@ require (
 	github.com/charmbracelet/lipgloss v0.10.0
 	github.com/lithammer/dedent v1.1.0
 	github.com/northwood-labs/archstring v0.0.0-20240514202612-a86538822b29
-	github.com/spf13/cobra v1.8.0
+	github.com/spf13/cobra v1.8.1
 )
 
 require (
