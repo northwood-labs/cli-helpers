@@ -4,7 +4,7 @@ go 1.22.3
 
 require (
 	github.com/charmbracelet/bubbles v0.18.0
-	github.com/charmbracelet/lipgloss v0.10.0
+	github.com/charmbracelet/lipgloss v0.12.1
 	github.com/lithammer/dedent v1.1.0
 	github.com/northwood-labs/archstring v0.0.0-20240514202612-a86538822b29
 	github.com/spf13/cobra v1.8.1
@@ -13,6 +13,7 @@ require (
 require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/charmbracelet/bubbletea v0.26.2 // indirect
+	github.com/charmbracelet/x/ansi v0.1.4 // indirect
 	github.com/erikgeiser/coninput v0.0.0-20211004153227-1c3628e74d0f // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
