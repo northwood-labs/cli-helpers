@@ -13,6 +13,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 ### :dependabot: Building and Dependencies
 
 * [`bb85e8e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bb85e8e7ab7375530d00401a3af0e32bcd3029ae): **deps**: Bump `github.com/spf13/cobra` from 1.8.0 to 1.8.1 ([@dependabot](https://github.com/dependabot))
+* [`9e09548`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9e09548adc20398e391035cf91a174c26922314e): **deps**: Bump `github.com/charmbracelet/bubbles` from 0.18.0 to 0.20.0 ([#8](https://github.com/northwood-labs/cli-helpers/issues/8)) ([@dependabot](https://github.com/dependabot))
+* [`852aa6d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/852aa6d1c7a3751f0bad440505f2b59488683e8e): **deps**: Bump `github.com/charmbracelet/lipgloss` from 0.10.0 to 1.0.0 ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
