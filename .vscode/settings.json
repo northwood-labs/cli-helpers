@@ -339,5 +339,6 @@
   "markdownlint.run": "onType",
   // goplicate-end:markdown
   //
-  "": ""
+  "": "",
+  "sarif-viewer.connectToGithubCodeScanning": "on"
 }

@@ -19,6 +19,7 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/bubbles/table"
+	"github.com/charmbracelet/glamour"
 	"github.com/charmbracelet/lipgloss"
 	"github.com/lithammer/dedent"
 )
@@ -35,11 +36,29 @@ func LongHelpText(text string) string {
 		BorderForeground(lipgloss.Color("99")).
 		Padding(1, 2) // lint:allow_raw_number
 
-	return helpText.Render(
+	renderer, err := glamour.NewTermRenderer(glamour.WithAutoStyle())
+	if err != nil {
+		return helpText.Render(
+			strings.TrimSpace(
+				dedent.Dedent(text),
+			),
+		)
+	}
+
+	glowed, err := renderer.Render(
 		strings.TrimSpace(
 			dedent.Dedent(text),
 		),
 	)
+	if err != nil {
+		return helpText.Render(
+			strings.TrimSpace(
+				dedent.Dedent(text),
+			),
+		)
+	}
+
+	return helpText.Render(glowed)
 }
 
 // -----------------------------------------------------------------------------
