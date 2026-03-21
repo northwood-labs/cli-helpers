@@ -1,4 +1,4 @@
-// Copyright 2024, Northwood Labs
+// Copyright 2024-2026, Northwood Labs
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -21,8 +21,8 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/charmbracelet/lipgloss"
-	"github.com/charmbracelet/lipgloss/table"
+	"charm.land/lipgloss/v2"
+	"charm.land/lipgloss/v2/table"
 	"github.com/northwood-labs/archstring"
 	"github.com/spf13/cobra"
 )

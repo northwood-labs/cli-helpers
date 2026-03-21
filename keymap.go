@@ -1,4 +1,4 @@
-// Copyright 2024, Northwood Labs
+// Copyright 2024-2026, Northwood Labs
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 
 package clihelpers
 
-import "github.com/charmbracelet/bubbles/key"
+import "charm.land/bubbles/v2/key"
 
 // KeyBindings are the standard/default keybindings for the application.
 var KeyBindings = KeyMap{
