@@ -18,6 +18,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`854f3e4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/854f3e4da4d02054ebc81c0ea4490affa0ddf0e5): **deps**: Bump `github.com/spf13/cobra` from 1.8.1 to 1.9.1 ([#11](https://github.com/northwood-labs/cli-helpers/issues/11)) ([@dependabot](https://github.com/dependabot))
 * [`bb9541e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bb9541ea3817b9aa81905f94c843beb78e9fabda): **deps**: Bump `github.com/charmbracelet/lipgloss` from 1.0.0 to 1.1.0 ([#12](https://github.com/northwood-labs/cli-helpers/issues/12)) ([@dependabot](https://github.com/dependabot))
 * [`b1f9923`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b1f9923abea7aca9b95276801777ec773922be96): **deps**: Bump `github.com/charmbracelet/bubbles` from 0.20.0 to 0.21.0 ([#13](https://github.com/northwood-labs/cli-helpers/issues/13)) ([@dependabot](https://github.com/dependabot))
+* [`736c081`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/736c0810423505d8d659decfbd13aa8482ee6ac0): **deps**: Bump `github.com/spf13/cobra` from 1.9.1 to 1.10.1 ([#16](https://github.com/northwood-labs/cli-helpers/issues/16)) ([@dependabot](https://github.com/dependabot))
+* [`4e677c6`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4e677c65594c4f0f0617eed06f0377419d33685c): **deps**: Bump `github.com/spf13/cobra` from 1.10.1 to 1.10.2 ([#17](https://github.com/northwood-labs/cli-helpers/issues/17)) ([@dependabot](https://github.com/dependabot))
+* [`26c2e39`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/26c2e3994899ccf188e6196432d348b342ed7077): **deps**: Bump `github.com/charmbracelet/bubbles` from 0.21.0 to 0.21.1 ([#18](https://github.com/northwood-labs/cli-helpers/issues/18)) ([@dependabot](https://github.com/dependabot))
+* [`ccc497e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ccc497e0c87ef525a905fcf5ea3f65a16599d464): **deps**: Upgraded Charmbracelet to v2 with vanity imports. ([@skyzyx](https://github.com/skyzyx))
 
 ### :test_tube: Testing
 
@@ -28,4 +32,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`db94792`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/db94792c1dda00f436191eafb507c99240427233): Initial commit. ([@skyzyx](https://github.com/skyzyx))
 * [`aa043eb`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aa043ebcd9308d1f797bf9b902541382fc34a3b1): Add Glow as a Markdown renderer. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2025-08-30.</p>
+<p>Generated on 2026-03-21.</p>
