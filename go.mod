@@ -3,7 +3,7 @@ module github.com/northwood-labs/cli-helpers
 go 1.25.0
 
 require (
-	charm.land/bubbles/v2 v2.0.0
+	charm.land/bubbles/v2 v2.1.0
 	charm.land/lipgloss/v2 v2.0.2
 	github.com/charmbracelet/glamour v1.0.0
 	github.com/lithammer/dedent v1.1.0
