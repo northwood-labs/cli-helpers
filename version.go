@@ -28,7 +28,7 @@ import (
 )
 
 func VersionScreen() *cobra.Command {
-	version := "dev"
+	Version := "dev"
 	commit := VCS("vcs.revision", "unknown")
 	buildDate := VCS("vcs.time", "unknown")
 	dirty := VCS("vcs.modified", "unknown")
@@ -50,7 +50,7 @@ func VersionScreen() *cobra.Command {
 				}).
 				Headers("BUILD INFO", "VALUE")
 
-			t.Row("Version", version)
+			t.Row("Version", Version)
 			t.Row("Go version", runtime.Version())
 			t.Row("Git commit", commit)
 			if dirty == "true" {

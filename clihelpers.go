@@ -61,6 +61,11 @@ func LongHelpText(text string) string {
 	return helpText.Render(glowed)
 }
 
+// ExampleText returns formatting that is appropriate for CLI examples.
+func ExampleText(text string) string {
+	return strings.TrimSpace(dedent.Dedent(text))
+}
+
 // -----------------------------------------------------------------------------
 // Bubbletea helpers
 
