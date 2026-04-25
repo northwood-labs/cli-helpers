@@ -23,6 +23,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`26c2e39`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/26c2e3994899ccf188e6196432d348b342ed7077): **deps**: Bump `github.com/charmbracelet/bubbles` from 0.21.0 to 0.21.1 ([#18](https://github.com/northwood-labs/cli-helpers/issues/18)) ([@dependabot](https://github.com/dependabot))
 * [`ccc497e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ccc497e0c87ef525a905fcf5ea3f65a16599d464): **deps**: Upgraded Charmbracelet to v2 with vanity imports. ([@skyzyx](https://github.com/skyzyx))
 * [`e612837`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e6128371e88b5fdb68be10cb2c1820b72e02243d): **deps**: Bump `charm.land/bubbles/v2` from 2.0.0 to 2.1.0 ([#22](https://github.com/northwood-labs/cli-helpers/issues/22)) ([@dependabot](https://github.com/dependabot))
+* [`323d731`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/323d7312a8a52d4e93b0981752e497becae30146): **deps**: Bump `charm.land/lipgloss/v2` from 2.0.2 to 2.0.3 ([#23](https://github.com/northwood-labs/cli-helpers/issues/23)) ([@dependabot](https://github.com/dependabot))
+* [`bb8513d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bb8513d5cbd0a198960c031eebe482da486d2363): **deps**: Bump `step-security/harden-runner` from 2.10.1 to 2.19.0 ([#24](https://github.com/northwood-labs/cli-helpers/issues/24)) ([@dependabot](https://github.com/dependabot))
 
 ### :test_tube: Testing
 
@@ -34,4 +36,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`aa043eb`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aa043ebcd9308d1f797bf9b902541382fc34a3b1): Add Glow as a Markdown renderer. ([@skyzyx](https://github.com/skyzyx))
 * [`fb4df02`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/fb4df02f9ab1b7b51db322fca731269b4331d856): Add comprehensive styling and logging support for Charmbracelet v2. ([@skyzyx](https://github.com/skyzyx))
 
-<p>Generated on 2026-04-03.</p>
+### <!-- ZZZ -->:gear: Miscellaneous Tasks
+
+* [`c1430a1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c1430a13627208d6db2785c8cdcf00cd3163b1f3): Remove goplicate and update Go dependencies. ([@skyzyx](https://github.com/skyzyx))
+
+<p>Generated on 2026-04-25.</p>
