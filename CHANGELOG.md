@@ -35,6 +35,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`db94792`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/db94792c1dda00f436191eafb507c99240427233): Initial commit. ([@skyzyx](https://github.com/skyzyx))
 * [`aa043eb`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aa043ebcd9308d1f797bf9b902541382fc34a3b1): Add Glow as a Markdown renderer. ([@skyzyx](https://github.com/skyzyx))
 * [`fb4df02`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/fb4df02f9ab1b7b51db322fca731269b4331d856): Add comprehensive styling and logging support for Charmbracelet v2. ([@skyzyx](https://github.com/skyzyx))
+* [`87d7344`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/87d7344cf75355aab80a21014047e7aedfbce874): Created a v2. ([@skyzyx](https://github.com/skyzyx))
 
 ### <!-- ZZZ -->:gear: Miscellaneous Tasks
 
