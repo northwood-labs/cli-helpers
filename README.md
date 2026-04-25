@@ -2,6 +2,12 @@
 
 Patterns codified as to reduce yak-shaving.
 
+## Install
+
+```bash
+go get -u go.nwlabs.dev/cli-helpers/v2
+```
+
 ## Long help text for Cobra
 
 ```go
@@ -115,7 +121,7 @@ func (m model) View() string {
 No library code for this. Just an example of how to spin on an async process, then pass the result back to the outer scope.
 
 ```go
-import "github.com/charmbracelet/huh/spinner"
+import "charm.land/huh/v2/spinner"
 
 var (
   apiToken string // <-- (1) Defined at this level of the scope.
