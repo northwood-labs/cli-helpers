@@ -29,10 +29,11 @@ jobs:
         with:
           disable-sudo: false
           egress-policy: block
-          allowed-endpoints: >
+          allowed-endpoints: |
             api.github.com:443
             github.com:443
             objects.githubusercontent.com:443
+            release-assets.githubusercontent.com:443
             osv-vulnerabilities.storage.googleapis.com:443
 
       - name: Checkout Source
