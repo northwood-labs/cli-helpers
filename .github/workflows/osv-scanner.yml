@@ -30,6 +30,8 @@ jobs:
           disable-sudo: false
           egress-policy: block
           allowed-endpoints: |
+            52.13.150.152:443
+            54.203.187.250:443
             api.github.com:443
             github.com:443
             hosted-compute-watchdog-prod-eus-01.githubapp.com:443

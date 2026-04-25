@@ -30,9 +30,12 @@ jobs:
           disable-sudo: true
           egress-policy: block
           allowed-endpoints: |
+            52.13.150.152:443
+            54.203.187.250:443
             api.github.com:443
             github.com:443
             golang.org:443
+            hosted-compute-watchdog-prod-iad-01.githubapp.com:443
             hosted-compute-watchdog-prod-iad-02.githubapp.com:443
             objects.githubusercontent.com:443
             proxy.golang.org:443
