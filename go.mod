@@ -8,8 +8,8 @@ require (
 	charm.land/log/v2 v2.0.0
 	github.com/charmbracelet/glamour v1.0.0
 	github.com/lithammer/dedent v1.1.0
-	github.com/northwood-labs/archstring v0.0.0-20240514202917-e9357b4b91c8
 	github.com/spf13/cobra v1.10.2
+	go.nwlabs.dev/x/arch/v2 v2.0.0-20260424231644-52ee443e2a0a
 )
 
 require (
