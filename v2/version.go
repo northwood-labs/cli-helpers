@@ -23,8 +23,8 @@ import (
 
 	"charm.land/lipgloss/v2"
 	"charm.land/lipgloss/v2/table"
-	"github.com/northwood-labs/archstring"
 	"github.com/spf13/cobra"
+	"go.nwlabs.dev/x/arch/v2"
 )
 
 func VersionScreen() *cobra.Command {
@@ -61,7 +61,7 @@ func VersionScreen() *cobra.Command {
 			}
 			t.Row("Build date", buildDate)
 			t.Row("OS/Arch", fmt.Sprintf("%s/%s", runtime.GOOS, runtime.GOARCH))
-			t.Row("System", archstring.GetFriendlyName(runtime.GOOS, runtime.GOARCH))
+			t.Row("System", arch.GetFriendlyName(runtime.GOOS, runtime.GOARCH))
 			t.Row("CPU cores", fmt.Sprintf("%d", runtime.NumCPU()))
 
 			fmt.Println(t.Render())

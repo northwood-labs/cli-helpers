@@ -15,12 +15,13 @@
 package clihelpers
 
 import (
+	"os"
 	"runtime/debug"
 	"strings"
 
 	"charm.land/bubbles/v2/table"
+	"charm.land/glamour/v2"
 	"charm.land/lipgloss/v2"
-	"github.com/charmbracelet/glamour"
 	"github.com/lithammer/dedent"
 )
 
@@ -36,7 +37,15 @@ func LongHelpText(text string) string {
 		BorderForeground(lipgloss.Color("99")).
 		Padding(1, 2) // lint:allow_raw_number
 
-	renderer, err := glamour.NewTermRenderer(glamour.WithAutoStyle())
+	// Detect if we're on a dark background
+	hasDarkBG := lipgloss.HasDarkBackground(os.Stdin, os.Stdout)
+
+	style := "dark"
+	if !hasDarkBG {
+		style = "light"
+	}
+
+	renderer, err := glamour.NewTermRenderer(glamour.WithStylePath(style))
 	if err != nil {
 		return helpText.Render(
 			strings.TrimSpace(
