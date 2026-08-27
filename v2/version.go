@@ -27,8 +27,9 @@ import (
 	"go.nwlabs.dev/x/arch/v2"
 )
 
+var Version = "dev"
+
 func VersionScreen() *cobra.Command {
-	Version := "dev"
 	commit := VCS("vcs.revision", "unknown")
 	buildDate := VCS("vcs.time", "unknown")
 	dirty := VCS("vcs.modified", "unknown")
